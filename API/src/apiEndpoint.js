@@ -5,7 +5,7 @@ router.get("/", (req, res) => {
   res.send("API is live");
 });
 
-router.post("/api/transfrom", (req, res) => {
+router.post("/api/transform", (req, res) => {
   const { sentence } = req.body;
 
   if (!sentence || sentence.trim() === "") {
